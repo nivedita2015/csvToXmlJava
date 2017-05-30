@@ -1,6 +1,6 @@
-#h1CSV to XML Converter
+CSV to XML Converter
 
-#h2Assumptions:
+Assumptions:
 1. CSV file first line is the headers.
 	example: Name,Phone,Address
 2. Following lines are individual records
@@ -10,11 +10,11 @@
 	Output file finalXML.xml generated in project. 
 	If file not visible in project explorer, please refresh.
 
-#h2Dependencies:
+Dependencies:
 All dependencies can be found in the project.
 This project was written on a MacOS machine on intelliJ primarily, but then migrated to Eclipse for easy distribution.
 
-#h2Class Description:
+Class Description:
 Main - Driver class for project. Calls convertToXML function with i/p and o/p file name.
 
 Converter - Converts the input csv to xml. 
@@ -42,7 +42,7 @@ ConverterTest - JUnit test cases for Converter.
 	- Checks for file where a record has more values than tag names.
 	- Warning displayed and extra values are not added to xml.
 
-#h2Future Version
+Future Version
 1. Allow user to pick input file from a browser like utility or Paste CSV as text. 
 2. Allow user to enter output file name and select location when file conversion complete.
 3. XSLT to make XML better aligned.
